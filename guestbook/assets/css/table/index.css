@@ -1,0 +1,62 @@
+body {
+    background: whitesmoke;
+}
+#title {
+    display:table-caption;
+    color:darkblue;
+}
+#guestform {
+    display: inline-table;
+}
+#wrap {
+    display: table;
+    width:480px;
+    margin: 0px auto;
+    text-align: center;
+}
+#name, #email, #comment{
+    display: table-row;
+}
+#name_label, #email_label, #comment_label{
+    display: table-cell;
+    text-align: left;
+    font-family: cursive;
+    font-size: large;
+    color:darkblue;
+}
+#name_input, #email_input, #comment_textarea {
+    display: table-cell;
+    text-align: left;
+}
+#comment_textarea>textarea{
+    height:70px;
+    width:300px;
+}
+#email_input>input, #name_input>input{
+    height:25px;
+}
+#operate>input {
+    position: relative;
+    left: 100%;
+    background: whitesmoke;
+    border-radius: 5px;
+    color: darkblue;
+    font-weight: bold;
+    font-family: cursive;
+}
+#footer {
+    margin-top: 20px;
+}
+.input_area {
+    border-radius: 5px;
+}
+textarea {
+    border-color: whitesmoke;
+    border-style: inset;
+    border-width: 2px;
+}
+#view_guestbook {
+    color: darkblue;
+    font-family: cursive;
+    float: right;
+}

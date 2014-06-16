@@ -1,0 +1,60 @@
+body {
+    background: mistyrose; 
+}
+#wrap {
+    width:480px;
+    margin:0px auto;
+}
+#name_input>input, #email_input>input{
+    height:25px;
+}
+#comment_textarea>textarea {
+    width:300px;
+    height:100px;
+}
+#name_input, #email_input, #comment_textarea {
+    margin-top: 5px;
+}
+#name, #email, #comment {
+    margin-top: 5px;
+}
+#operate>input:first-child {
+    margin-left: 20%;
+}
+#footer {
+    margin-top: 50px;
+    margin-left: 20%;
+}
+#name_label, #email_label, #comment_label {
+    color: olive;
+    font-size:17px;
+    font-family: cursive;
+}
+#title {
+    color: olive;
+    font-family: cursive;
+}
+#operate>input {
+    color: olive;
+    font-family: cursive;
+    font-size: 17px;
+    background: mistyrose;
+    border-radius: 10px;
+}
+.input_area{
+    border-radius: 5px;
+    color: olive;
+    font-weight: bold;
+}
+textarea {
+    border-color: mistyrose;
+    border-style: inset;
+    border-width: 2px;
+}
+#view_guestbook {
+    color: olive;
+    font-family: cursive;
+}
+#operate {
+    margin-top: 20px;
+}
