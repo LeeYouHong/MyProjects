@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ChatServer" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="tinyxml/;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ChatServer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="pthread" />
+					<Add library="mysqlclient" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ChatServer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="../GlobleData.h" />
+		<Unit filename="include/ChatRoom.h" />
+		<Unit filename="include/Client.h" />
+		<Unit filename="include/DataBaseThread.h" />
+		<Unit filename="include/DataEngine.h" />
+		<Unit filename="include/GlobalParamManager.h" />
+		<Unit filename="include/HandleMessage.h" />
+		<Unit filename="include/Locker.h" />
+		<Unit filename="include/Log.h" />
+		<Unit filename="include/MySqlDataHandle.h" />
+		<Unit filename="include/NetworkEngine.h" />
+		<Unit filename="include/SendThread.h" />
+		<Unit filename="include/ServiceThread.h" />
+		<Unit filename="include/Singleton.h" />
+		<Unit filename="include/SocketItem.h" />
+		<Unit filename="include/SocketItemManager.h" />
+		<Unit filename="include/WorkThread.h" />
+		<Unit filename="include/interface.h" />
+		<Unit filename="include/tinystr.h">
+			<Option virtualFolder="tinyxml/" />
+		</Unit>
+		<Unit filename="include/tinyxml.h">
+			<Option virtualFolder="tinyxml/" />
+		</Unit>
+		<Unit filename="main.cpp" />
+		<Unit filename="src/ChatRoom.cpp" />
+		<Unit filename="src/Client.cpp" />
+		<Unit filename="src/DataBaseThread.cpp" />
+		<Unit filename="src/DataEngine.cpp" />
+		<Unit filename="src/GlobalParamManager.cpp" />
+		<Unit filename="src/HandleMessage.cpp" />
+		<Unit filename="src/Locker.cpp" />
+		<Unit filename="src/Log.cpp" />
+		<Unit filename="src/MySqlDataHandle.cpp" />
+		<Unit filename="src/NetworkEngine.cpp" />
+		<Unit filename="src/SendThread.cpp" />
+		<Unit filename="src/ServiceThread.cpp" />
+		<Unit filename="src/SocketItem.cpp" />
+		<Unit filename="src/SocketItemManager.cpp" />
+		<Unit filename="src/WorkThread.cpp" />
+		<Unit filename="src/tinystr.cpp">
+			<Option virtualFolder="tinyxml/" />
+		</Unit>
+		<Unit filename="src/tinyxml.cpp">
+			<Option virtualFolder="tinyxml/" />
+		</Unit>
+		<Unit filename="src/tinyxmlerror.cpp">
+			<Option virtualFolder="tinyxml/" />
+		</Unit>
+		<Unit filename="src/tinyxmlparser.cpp">
+			<Option virtualFolder="tinyxml/" />
+		</Unit>
+		<Extensions>
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

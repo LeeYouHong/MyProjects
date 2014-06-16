@@ -1,0 +1,14 @@
+<Persons>
+    <Person ID="1">
+        <Accounts>周星星</Accounts>
+        <Passwd>123456</Passwd>
+    </Person>
+    <Person ID="2">
+        <Account>liyouhong</Account>
+        <123456>123456
+    </Person>
+    <Person ID="2">
+        <Account>peifangxu</Account>
+        <123456>123456</123456>
+    </Person>
+</Persons>

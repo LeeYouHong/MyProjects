@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<BrowseTracker_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="src/DataBaseThread.cpp" open="1" top="0" tabpos="6">
+		<Cursor position="1098" topLine="35" />
+	</File>
+	<File name="src/SocketItem.cpp" open="1" top="0" tabpos="7">
+		<Cursor position="2877" topLine="144" />
+	</File>
+	<File name="src/HandleMessage.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="2798" topLine="105" />
+	</File>
+	<File name="include/SocketItem.h" open="1" top="0" tabpos="8">
+		<Cursor position="1785" topLine="59" />
+	</File>
+	<File name="include/ChatRoom.h" open="1" top="0" tabpos="2">
+		<Cursor position="559" topLine="11" />
+	</File>
+	<File name="main.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="135" topLine="0" />
+	</File>
+	<File name="src/ServiceThread.cpp" open="1" top="0" tabpos="9">
+		<Cursor position="1914" topLine="69" />
+	</File>
+	<File name="include/DataBaseThread.h" open="0" top="0" tabpos="0">
+		<Cursor position="667" topLine="21" />
+	</File>
+	<File name="include/HandleMessage.h" open="0" top="0" tabpos="4">
+		<Cursor position="1535" topLine="22" />
+	</File>
+	<File name="include/interface.h" open="0" top="0" tabpos="3">
+		<Cursor position="1026" topLine="15" />
+		<Book_Marks positions="0" />
+	</File>
+	<File name="include/WorkThread.h" open="0" top="0" tabpos="0">
+		<Cursor position="549" topLine="11" />
+	</File>
+	<File name="src/WorkThread.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="2194" topLine="74" />
+	</File>
+	<File name="include/tinystr.h" open="0" top="0" tabpos="0">
+		<Cursor position="342" topLine="0" />
+	</File>
+	<File name="include/GlobleData.h" open="1" top="0" tabpos="10">
+		<Cursor position="6468" topLine="217" />
+	</File>
+	<File name="include/SocketItemManager.h" open="0" top="0" tabpos="8">
+		<Cursor position="709" topLine="22" />
+	</File>
+	<File name="include/DataEngine.h" open="0" top="0" tabpos="9">
+		<Cursor position="1114" topLine="21" />
+	</File>
+	<File name="include/XMLDataHandle.h" open="0" top="0" tabpos="1">
+		<Cursor position="979" topLine="12" />
+	</File>
+	<File name="src/Epoll.cpp" open="1" top="0" tabpos="11">
+		<Cursor position="1145" topLine="52" />
+	</File>
+	<File name="src/SocketItemManager.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="969" topLine="0" />
+	</File>
+	<File name="src/DataEngine.cpp" open="1" top="1" tabpos="4">
+		<Cursor position="2752" topLine="88" />
+		<BrowseMarks positions="" />
+		<Book_Marks positions="" />
+	</File>
+	<File name="src/tinyxml.cpp" open="0" top="0" tabpos="12">
+		<Cursor position="23965" topLine="1131" />
+	</File>
+	<File name="include/tinyxml.h" open="0" top="0" tabpos="13">
+		<Cursor position="5738" topLine="194" />
+	</File>
+	<File name="src/ChatRoom.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="1392" topLine="41" />
+	</File>
+	<File name="src/XMLDataHandle.cpp" open="1" top="0" tabpos="5">
+		<Cursor position="1088" topLine="27" />
+	</File>
+	<File name="include/ServiceThread.h" open="0" top="0" tabpos="0">
+		<Cursor position="1044" topLine="27" />
+	</File>
+	<File name="include/Epoll.h" open="0" top="0" tabpos="3">
+		<Cursor position="530" topLine="48" />
+	</File>
+</BrowseTracker_layout_file>

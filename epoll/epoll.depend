@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1387179857 source:/home/lyh/Documents/CodeBlocks Projects/epoll/epoll_cpp/epoll/main.cpp
+	<iostream>
+	"Epoll.h"
+
+1387188291 /home/lyh/Documents/CodeBlocks Projects/epoll/epoll_cpp/epoll/include/Epoll.h
+
+1387188315 source:/home/lyh/Documents/CodeBlocks Projects/epoll/epoll_cpp/epoll/src/Epoll.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/epoll.h>
+	<errno.h>
+	"Epoll.h"
+

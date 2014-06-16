@@ -1,0 +1,1356 @@
+# depslib dependency file v1.0
+1387864285 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatServer/main.cpp
+	<iostream>
+	<unistd.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<syslog.h>
+	<signal.h>
+	<stdlib.h>
+	"ChatRoom.h"
+
+1387428340 /home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatServer/include/ChatRoom.h
+
+1387446593 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatServer/src/ChatRoom.cpp
+	"Epoll.h"
+	"DataEngine.h"
+	"HandleMessage.h"
+	"XMLDataHandle.h"
+	"SocketItemManager.h"
+	"ChatRoom.h"
+
+1387438356 /home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatServer/include/Epoll.h
+	<vector>
+	"GlobleData.h"
+	"interface.h"
+	"WorkThread.h"
+
+1387706353 /home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatServer/include/GlobleData.h
+	"pthread.h"
+
+1387445888 /home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatServer/include/interface.h
+	"GlobleData.h"
+
+1387438553 /home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatServer/include/WorkThread.h
+	"ServiceThread.h"
+	"SocketItem.h"
+
+1387438024 /home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatServer/include/ServiceThread.h
+	"pthread.h"
+	"GlobleData.h"
+
+1387509998 /home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatServer/include/SocketItem.h
+	<string>
+	<sys/socket.h>
+	"interface.h"
+	"GlobleData.h"
+
+1387446507 /home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatServer/include/DataEngine.h
+	"interface.h"
+	"DataBaseThread.h"
+
+1387437832 /home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatServer/include/DataBaseThread.h
+	<queue>
+	"pthread.h"
+	"ServiceThread.h"
+	"interface.h"
+
+1387522354 /home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatServer/include/HandleMessage.h
+	"interface.h"
+
+1387509521 /home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatServer/include/XMLDataHandle.h
+	"interface.h"
+
+1387522765 /home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatServer/include/SocketItemManager.h
+	<vector>
+	<map>
+	"interface.h"
+
+1387453265 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatServer/src/DataBaseThread.cpp
+	<string.h>
+	"GlobleData.h"
+	"DataBaseThread.h"
+
+1387867114 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatServer/src/DataEngine.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+	"DataEngine.h"
+
+1387438668 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatServer/src/Epoll.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/epoll.h>
+	<errno.h>
+	"Epoll.h"
+	"SocketItem.h"
+	"GlobleData.h"
+	"SocketItemManager.h"
+
+1387868198 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatServer/src/HandleMessage.cpp
+	<stdio.h>
+	<string.h>
+	<iostream>
+	<vector>
+	<fcntl.h>
+	<sys/epoll.h>
+	<sys/socket.h>
+	<unistd.h>
+	<netdb.h>
+	<errno.h>
+	"GlobleData.h"
+	"HandleMessage.h"
+	"SocketItemManager.h"
+	"SocketItem.h"
+
+1387440289 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatServer/src/ServiceThread.cpp
+	"ServiceThread.h"
+
+1387528389 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatServer/src/SocketItem.cpp
+	<iostream>
+	<stdio.h>
+	<fcntl.h>
+	<sys/epoll.h>
+	<sys/socket.h>
+	<unistd.h>
+	<netdb.h>
+	<errno.h>
+	<string.h>
+	"SocketItem.h"
+	"SocketItemManager.h"
+
+1387528441 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatServer/src/SocketItemManager.cpp
+	<stdio.h>
+	<string.h>
+	"SocketItemManager.h"
+	"SocketItem.h"
+
+1387340071 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatServer/src/tinystr.cpp
+	"tinystr.h"
+
+1387340073 /home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatServer/include/tinystr.h
+	<assert.h>
+	<string.h>
+
+1387340087 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatServer/src/tinyxml.cpp
+	<ctype.h>
+	<sstream>
+	<iostream>
+	"tinyxml.h"
+
+1387340134 /home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatServer/include/tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1387340156 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatServer/src/tinyxmlerror.cpp
+	"tinyxml.h"
+
+1387340154 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatServer/src/tinyxmlparser.cpp
+	<ctype.h>
+	<stddef.h>
+	"tinyxml.h"
+	<windows.h>
+
+1387439003 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatServer/src/WorkThread.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/epoll.h>
+	"WorkThread.h"
+	"SocketItem.h"
+
+1387688882 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatServer/src/XMLDataHandle.cpp
+	"XMLDataHandle.h"
+	"tinyxml.h"
+	<iostream>
+
+1388371119 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatServer/main.cpp
+	<iostream>
+	<unistd.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<syslog.h>
+	<signal.h>
+	<fcntl.h>
+	<stdlib.h>
+	"ChatRoom.h"
+	"GlobleData.h"
+
+1387945358 /home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatServer/include/ChatRoom.h
+
+1388372153 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatServer/src/ChatRoom.cpp
+	<syslog.h>
+	"Epoll.h"
+	"DataEngine.h"
+	"HandleMessage.h"
+	"XMLDataHandle.h"
+	"SocketItemManager.h"
+	"ClientManager.h"
+	"ChatRoom.h"
+	"Log.h"
+
+1387438356 /home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatServer/include/Epoll.h
+	<vector>
+	"GlobleData.h"
+	"interface.h"
+	"WorkThread.h"
+
+1388392880 /home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatServer/include/GlobleData.h
+	"pthread.h"
+
+1388051010 /home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatServer/include/interface.h
+	"GlobleData.h"
+
+1387438553 /home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatServer/include/WorkThread.h
+	"ServiceThread.h"
+	"SocketItem.h"
+
+1387438024 /home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatServer/include/ServiceThread.h
+	"pthread.h"
+	"GlobleData.h"
+
+1388044567 /home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatServer/include/SocketItem.h
+	<string>
+	<sys/socket.h>
+	"interface.h"
+	"GlobleData.h"
+
+1388366933 /home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatServer/include/DataEngine.h
+	"interface.h"
+	"DataBaseThread.h"
+
+1388367002 /home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatServer/include/DataBaseThread.h
+	<queue>
+	"pthread.h"
+	"ServiceThread.h"
+	"interface.h"
+
+1388051112 /home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatServer/include/HandleMessage.h
+	"interface.h"
+
+1387509521 /home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatServer/include/XMLDataHandle.h
+	"interface.h"
+
+1387522765 /home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatServer/include/SocketItemManager.h
+	<vector>
+	<map>
+	"interface.h"
+
+1388366978 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatServer/src/DataBaseThread.cpp
+	<string.h>
+	"GlobleData.h"
+	"DataBaseThread.h"
+	"Log.h"
+
+1388051599 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatServer/src/DataEngine.cpp
+	<iostream>
+	<stdio.h>
+	<syslog.h>
+	<string.h>
+	"DataEngine.h"
+	"Log.h"
+
+1388368088 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatServer/src/Epoll.cpp
+	<syslog.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/epoll.h>
+	<errno.h>
+	"Epoll.h"
+	"SocketItem.h"
+	"GlobleData.h"
+	"SocketItemManager.h"
+	"Log.h"
+	"ClientManager.h"
+
+1388393383 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatServer/src/HandleMessage.cpp
+	<stdio.h>
+	<string.h>
+	<iostream>
+	<syslog.h>
+	<vector>
+	<fcntl.h>
+	<sys/epoll.h>
+	<sys/socket.h>
+	<unistd.h>
+	<netdb.h>
+	<errno.h>
+	"GlobleData.h"
+	"HandleMessage.h"
+	"SocketItemManager.h"
+	"SocketItem.h"
+	"Log.h"
+	"ClientManager.h"
+
+1387961904 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatServer/src/ServiceThread.cpp
+	<syslog.h>
+	"ServiceThread.h"
+	"Log.h"
+
+1388367069 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatServer/src/SocketItem.cpp
+	<iostream>
+	<stdio.h>
+	<fcntl.h>
+	<syslog.h>
+	<sys/epoll.h>
+	<sys/socket.h>
+	<unistd.h>
+	<netdb.h>
+	<errno.h>
+	<string.h>
+	"SocketItem.h"
+	"SocketItemManager.h"
+	"Log.h"
+
+1387528441 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatServer/src/SocketItemManager.cpp
+	<stdio.h>
+	<string.h>
+	"SocketItemManager.h"
+	"SocketItem.h"
+
+1387340071 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatServer/src/tinystr.cpp
+	"tinystr.h"
+
+1387340073 /home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatServer/include/tinystr.h
+	<assert.h>
+	<string.h>
+
+1387340087 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatServer/src/tinyxml.cpp
+	<ctype.h>
+	<sstream>
+	<iostream>
+	"tinyxml.h"
+
+1387340134 /home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatServer/include/tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1387340156 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatServer/src/tinyxmlerror.cpp
+	"tinyxml.h"
+
+1387340154 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatServer/src/tinyxmlparser.cpp
+	<ctype.h>
+	<stddef.h>
+	"tinyxml.h"
+	<windows.h>
+
+1387958049 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatServer/src/WorkThread.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<syslog.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/epoll.h>
+	"WorkThread.h"
+	"SocketItem.h"
+	"Log.h"
+
+1388022092 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatServer/src/XMLDataHandle.cpp
+	"XMLDataHandle.h"
+	"tinyxml.h"
+	<syslog.h>
+	<iostream>
+	"Log.h"
+
+1388371257 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatServer/src/Log.cpp
+	<iostream>
+	"Log.h"
+	"GlobleData.h"
+	<syslog.h>
+
+1387955800 /home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatServer/include/Log.h
+
+1388371662 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatServer/src/Client.cpp
+	<string.h>
+	"Client.h"
+	"SocketItem.h"
+	"ClientManager.h"
+
+1388367725 /home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatServer/include/Client.h
+	<string>
+	"GlobleData.h"
+
+1388369149 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatServer/src/ClientManager.cpp
+	<algorithm>
+	"Client.h"
+	"ClientManager.h"
+	"Log.h"
+
+1388372056 /home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatServer/include/ClientManager.h
+	<vector>
+	<map>
+	<string>
+	"Singleton.h"
+	"Client.h"
+	"interface.h"
+
+1388044110 /home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatServer/include/Singleton.h
+
+1388371119 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/main.cpp
+	<iostream>
+	<unistd.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<syslog.h>
+	<signal.h>
+	<fcntl.h>
+	<stdlib.h>
+	"ChatRoom.h"
+	"GlobleData.h"
+
+1389236383 /home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/include/ChatRoom.h
+
+1389235599 /home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/include/GlobleData.h
+	"pthread.h"
+
+1389236400 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/src/ChatRoom.cpp
+	<string>
+	<syslog.h>
+	"Epoll.h"
+	"DataEngine.h"
+	"HandleMessage.h"
+	"XMLDataHandle.h"
+	"SocketItemManager.h"
+	"ClientManager.h"
+	"ChatRoom.h"
+	"Log.h"
+	"GlobalParamManager.h"
+	"MySqlDataHandle.h"
+
+1389082488 /home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/include/Epoll.h
+	<vector>
+	"GlobleData.h"
+	"interface.h"
+	"WorkThread.h"
+
+1389232408 /home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/include/interface.h
+	"GlobleData.h"
+
+1389063341 /home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/include/WorkThread.h
+	"ServiceThread.h"
+	"SocketItem.h"
+
+1387438024 /home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/include/ServiceThread.h
+	"pthread.h"
+	"GlobleData.h"
+
+1389074997 /home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/include/SocketItem.h
+	<string>
+	<sys/socket.h>
+	"interface.h"
+	"GlobleData.h"
+
+1388640024 /home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/include/DataEngine.h
+	"interface.h"
+	"DataBaseThread.h"
+
+1388713494 /home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/include/DataBaseThread.h
+	<queue>
+	<list>
+	<pthread.h>
+	"ServiceThread.h"
+	"interface.h"
+	"Locker.h"
+
+1388729117 /home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/include/HandleMessage.h
+	"interface.h"
+
+1389232416 /home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/include/XMLDataHandle.h
+	"interface.h"
+
+1387522765 /home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/include/SocketItemManager.h
+	<vector>
+	<map>
+	"interface.h"
+
+1388372056 /home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/include/ClientManager.h
+	<vector>
+	<map>
+	<string>
+	"Singleton.h"
+	"Client.h"
+	"interface.h"
+
+1388044110 /home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/include/Singleton.h
+
+1389235599 /home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/include/Client.h
+	<string>
+	"GlobleData.h"
+
+1387955800 /home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/include/Log.h
+
+1389075284 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/src/Client.cpp
+	<string.h>
+	"Client.h"
+	"SocketItem.h"
+	"ClientManager.h"
+
+1389075261 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/src/ClientManager.cpp
+	<algorithm>
+	"Client.h"
+	"ClientManager.h"
+	"Log.h"
+
+1388713486 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/src/DataBaseThread.cpp
+	<string.h>
+	"GlobleData.h"
+	"DataBaseThread.h"
+	"Log.h"
+
+1389235098 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/src/DataEngine.cpp
+	<iostream>
+	<stdio.h>
+	<syslog.h>
+	<string.h>
+	"DataEngine.h"
+	"Log.h"
+	"GlobalParamManager.h"
+
+1389073788 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/src/Epoll.cpp
+	<syslog.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/epoll.h>
+	<errno.h>
+	"Epoll.h"
+	"SocketItem.h"
+	"GlobleData.h"
+	"SocketItemManager.h"
+	"Log.h"
+	"ClientManager.h"
+	"SendThread.h"
+	"GlobalParamManager.h"
+
+1389235599 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/src/HandleMessage.cpp
+	<stdio.h>
+	<string.h>
+	<iostream>
+	<syslog.h>
+	<vector>
+	<fcntl.h>
+	<sys/epoll.h>
+	<sys/socket.h>
+	<unistd.h>
+	<netdb.h>
+	<errno.h>
+	"GlobleData.h"
+	"HandleMessage.h"
+	"SocketItemManager.h"
+	"SocketItem.h"
+	"Log.h"
+	"ClientManager.h"
+
+1388371257 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/src/Log.cpp
+	<iostream>
+	"Log.h"
+	"GlobleData.h"
+	<syslog.h>
+
+1387961904 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/src/ServiceThread.cpp
+	<syslog.h>
+	"ServiceThread.h"
+	"Log.h"
+
+1389080001 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/src/SocketItem.cpp
+	<iostream>
+	<stdio.h>
+	<fcntl.h>
+	<syslog.h>
+	<sys/epoll.h>
+	<sys/socket.h>
+	<unistd.h>
+	<netdb.h>
+	<errno.h>
+	<string.h>
+	"SocketItem.h"
+	"SocketItemManager.h"
+	"Log.h"
+	"Client.h"
+	"ClientManager.h"
+
+1387340071 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/src/tinystr.cpp
+	"tinystr.h"
+
+1387340073 /home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/include/tinystr.h
+	<assert.h>
+	<string.h>
+
+1387340087 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/src/tinyxml.cpp
+	<ctype.h>
+	<sstream>
+	<iostream>
+	"tinyxml.h"
+
+1387340134 /home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/include/tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1387340156 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/src/tinyxmlerror.cpp
+	"tinyxml.h"
+
+1387340154 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/src/tinyxmlparser.cpp
+	<ctype.h>
+	<stddef.h>
+	"tinyxml.h"
+	<windows.h>
+
+1389075300 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/src/WorkThread.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<syslog.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/epoll.h>
+	"WorkThread.h"
+	"SocketItem.h"
+	"Log.h"
+
+1389232425 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/src/XMLDataHandle.cpp
+	"XMLDataHandle.h"
+	"tinyxml.h"
+	<syslog.h>
+	<iostream>
+	"Log.h"
+
+1388629578 /home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/include/locker.h
+	<pthread.h>
+	<semaphore.h>
+
+1388629575 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/src/locker.cpp
+	<exception>
+	"locker.h"
+
+1388653726 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/src/Locker.cpp
+	<exception>
+	"Locker.h"
+
+1388629578 /home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/include/Locker.h
+	<pthread.h>
+	<semaphore.h>
+
+1388729166 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/src/SendThread.cpp
+	"SendThread.h"
+	"ClientManager.h"
+	"SocketItem.h"
+
+1388713398 /home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/include/SendThread.h
+	<list>
+	"ServiceThread.h"
+	"Locker.h"
+	"GlobleData.h"
+
+1388733945 /home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/include/GlobalParamManager.h
+	<string>
+
+1388733948 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/src/GlobalParamManager.cpp
+	"tinyxml.h"
+	"Log.h"
+	"GlobalParamManager.h"
+
+1388994323 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/src/EventHandler.cpp
+	"EventHandler.h"
+
+1388994596 /home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/include/EventHandler.h
+	"GlobleData.h"
+
+1388998642 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/src/Reactor.cpp
+	"Reactor.h"
+
+1388998642 /home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/include/Reactor.h
+
+1389061931 /home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/include/LoggingAcceptor.h
+	<string>
+	"interface.h"
+	"SockAcceptor.h"
+
+1389071380 /home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/include/SockAcceptor.h
+	<string>
+	"SocketItem.h"
+
+1389071607 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/src/LoggingAcceptor.cpp
+	<sys/epoll.h>
+	"LoggingAcceptor.h"
+	"Epoll.h"
+	"LoggingHandler.h"
+	"Log.h"
+	"Client.h"
+	"ClientManager.h"
+
+1389071632 /home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/include/LoggingHandler.h
+	"SocketItem.h"
+	"interface.h"
+
+1389071740 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/src/LoggingHandler.cpp
+	<sys/epoll.h>
+	"Epoll.h"
+	"LoggingHandler.h"
+
+1389071572 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/src/SockAcceptor.cpp
+	"SockAcceptor.h"
+	"Log.h"
+	<errno.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<unistd.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<fcntl.h>
+
+1389243974 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/src/MySqlDataHandle.cpp
+	<mysql/mysql.h>
+	<stdio.h>
+	"MySqlDataHandle.h"
+	"Log.h"
+
+1389235612 /home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatServer/include/MySqlDataHandle.h
+	<mysql/mysql.h>
+	"interface.h"
+
+1388371119 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/main.cpp
+	<iostream>
+	<unistd.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<syslog.h>
+	<signal.h>
+	<fcntl.h>
+	<stdlib.h>
+	"ChatRoom.h"
+	"GlobleData.h"
+
+1389258473 /home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/include/ChatRoom.h
+
+1389235599 /home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/include/GlobleData.h
+	"pthread.h"
+
+1389322445 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/src/ChatRoom.cpp
+	<string>
+	<syslog.h>
+	"NetworkEngine.h"
+	"DataEngine.h"
+	"HandleMessage.h"
+	"XMLDataHandle.h"
+	"SocketItemManager.h"
+	"ClientManager.h"
+	"ChatRoom.h"
+	"Log.h"
+	"GlobalParamManager.h"
+	"MySqlDataHandle.h"
+
+1389258433 /home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/include/Epoll.h
+	<vector>
+	"GlobleData.h"
+	"interface.h"
+	"WorkThread.h"
+
+1389258349 /home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/include/interface.h
+	"GlobleData.h"
+
+1389063341 /home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/include/WorkThread.h
+	"ServiceThread.h"
+	"SocketItem.h"
+
+1387438024 /home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/include/ServiceThread.h
+	"pthread.h"
+	"GlobleData.h"
+
+1389318380 /home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/include/SocketItem.h
+	<string>
+	<sys/socket.h>
+	"interface.h"
+	"GlobleData.h"
+	"Client.h"
+
+1388640024 /home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/include/DataEngine.h
+	"interface.h"
+	"DataBaseThread.h"
+
+1388713494 /home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/include/DataBaseThread.h
+	<queue>
+	<list>
+	<pthread.h>
+	"ServiceThread.h"
+	"interface.h"
+	"Locker.h"
+
+1388629578 /home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/include/Locker.h
+	<pthread.h>
+	<semaphore.h>
+
+1388729117 /home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/include/HandleMessage.h
+	"interface.h"
+
+1389232416 /home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/include/XMLDataHandle.h
+	"interface.h"
+
+1389322225 /home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/include/SocketItemManager.h
+	<vector>
+	<string>
+	"Singleton.h"
+	"interface.h"
+
+1388372056 /home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/include/ClientManager.h
+	<vector>
+	<map>
+	<string>
+	"Singleton.h"
+	"Client.h"
+	"interface.h"
+
+1388044110 /home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/include/Singleton.h
+
+1389260771 /home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/include/Client.h
+	<string>
+	"GlobleData.h"
+
+1387955800 /home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/include/Log.h
+
+1388733945 /home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/include/GlobalParamManager.h
+	<string>
+
+1389235612 /home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/include/MySqlDataHandle.h
+	<mysql/mysql.h>
+	"interface.h"
+
+1389260849 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/src/Client.cpp
+	<string.h>
+	"Client.h"
+	"SocketItem.h"
+	"ClientManager.h"
+
+1389075261 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/src/ClientManager.cpp
+	<algorithm>
+	"Client.h"
+	"ClientManager.h"
+	"Log.h"
+
+1388713486 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/src/DataBaseThread.cpp
+	<string.h>
+	"GlobleData.h"
+	"DataBaseThread.h"
+	"Log.h"
+
+1389235098 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/src/DataEngine.cpp
+	<iostream>
+	<stdio.h>
+	<syslog.h>
+	<string.h>
+	"DataEngine.h"
+	"Log.h"
+	"GlobalParamManager.h"
+
+1388733948 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/src/GlobalParamManager.cpp
+	"tinyxml.h"
+	"Log.h"
+	"GlobalParamManager.h"
+
+1387340134 /home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/include/tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1387340073 /home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/include/tinystr.h
+	<assert.h>
+	<string.h>
+
+1389322336 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/src/HandleMessage.cpp
+	<stdio.h>
+	<string.h>
+	<iostream>
+	<syslog.h>
+	<vector>
+	<fcntl.h>
+	<sys/epoll.h>
+	<sys/socket.h>
+	<unistd.h>
+	<netdb.h>
+	<errno.h>
+	"GlobleData.h"
+	"HandleMessage.h"
+	"SocketItemManager.h"
+	"SocketItem.h"
+	"Log.h"
+
+1388653726 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/src/Locker.cpp
+	<exception>
+	"Locker.h"
+
+1388371257 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/src/Log.cpp
+	<iostream>
+	"Log.h"
+	"GlobleData.h"
+	<syslog.h>
+
+1389243974 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/src/MySqlDataHandle.cpp
+	<mysql/mysql.h>
+	<stdio.h>
+	"MySqlDataHandle.h"
+	"Log.h"
+
+1389262961 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/src/SendThread.cpp
+	"SendThread.h"
+	"SocketItemManager.h"
+	"SocketItem.h"
+
+1388713398 /home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/include/SendThread.h
+	<list>
+	"ServiceThread.h"
+	"Locker.h"
+	"GlobleData.h"
+
+1387961904 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/src/ServiceThread.cpp
+	<syslog.h>
+	"ServiceThread.h"
+	"Log.h"
+
+1389322535 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/src/SocketItem.cpp
+	<iostream>
+	<stdio.h>
+	<fcntl.h>
+	<syslog.h>
+	<sys/epoll.h>
+	<sys/socket.h>
+	<unistd.h>
+	<netdb.h>
+	<errno.h>
+	<string.h>
+	"SocketItem.h"
+	"SocketItemManager.h"
+	"Log.h"
+	"Client.h"
+	"ClientManager.h"
+
+1387340071 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/src/tinystr.cpp
+	"tinystr.h"
+
+1387340087 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/src/tinyxml.cpp
+	<ctype.h>
+	<sstream>
+	<iostream>
+	"tinyxml.h"
+
+1387340156 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/src/tinyxmlerror.cpp
+	"tinyxml.h"
+
+1387340154 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/src/tinyxmlparser.cpp
+	<ctype.h>
+	<stddef.h>
+	"tinyxml.h"
+	<windows.h>
+
+1389075300 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/src/WorkThread.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<syslog.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/epoll.h>
+	"WorkThread.h"
+	"SocketItem.h"
+	"Log.h"
+
+1389232425 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/src/XMLDataHandle.cpp
+	"XMLDataHandle.h"
+	"tinyxml.h"
+	<syslog.h>
+	<iostream>
+	"Log.h"
+
+1389258433 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/src/Epoll.cpp
+	<syslog.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/epoll.h>
+	<errno.h>
+	"Epoll.h"
+	"SocketItem.h"
+	"GlobleData.h"
+	"SocketItemManager.h"
+	"Log.h"
+	"ClientManager.h"
+	"SendThread.h"
+	"GlobalParamManager.h"
+
+1389322561 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/src/NetworkEngine.cpp
+	<syslog.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/epoll.h>
+	<errno.h>
+	"NetworkEngine.h"
+	"SocketItem.h"
+	"GlobleData.h"
+	"SocketItemManager.h"
+	"Log.h"
+	"SendThread.h"
+	"GlobalParamManager.h"
+
+1389258433 /home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/include/NetworkEngine.h
+	<vector>
+	"GlobleData.h"
+	"interface.h"
+	"WorkThread.h"
+
+1389322186 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom4.0/ChatServer/src/SocketItemManager.cpp
+	<algorithm>
+	<vector>
+	"SocketItem.h"
+	"SocketItemManager.h"
+	"Log.h"
+
+1389324562 source:/home/lyh/ChatRoom/ChatRoom4.0/ChatServer/main.cpp
+	<iostream>
+	<unistd.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<syslog.h>
+	<signal.h>
+	<fcntl.h>
+	<stdlib.h>
+	"ChatRoom.h"
+	"../../GlobleData.h"
+
+1389774455 /home/lyh/ChatRoom/ChatRoom4.0/ChatServer/include/ChatRoom.h
+
+1389235599 /home/lyh/ChatRoom/ChatRoom4.0/ChatServer/include/GlobleData.h
+	"pthread.h"
+
+1389861150 source:/home/lyh/ChatRoom/ChatRoom4.0/ChatServer/src/ChatRoom.cpp
+	<string>
+	<syslog.h>
+	"NetworkEngine.h"
+	"DataEngine.h"
+	"HandleMessage.h"
+	"SocketItemManager.h"
+	"ChatRoom.h"
+	"Log.h"
+	"GlobalParamManager.h"
+	"MySqlDataHandle.h"
+
+1389753098 /home/lyh/ChatRoom/ChatRoom4.0/ChatServer/include/NetworkEngine.h
+	<vector>
+	"../../GlobleData.h"
+	"interface.h"
+	"WorkThread.h"
+
+1389324575 /home/lyh/ChatRoom/ChatRoom4.0/ChatServer/include/interface.h
+	"../../GlobleData.h"
+
+1389347293 /home/lyh/ChatRoom/ChatRoom4.0/ChatServer/include/WorkThread.h
+	"ServiceThread.h"
+	"SocketItem.h"
+
+1389324580 /home/lyh/ChatRoom/ChatRoom4.0/ChatServer/include/ServiceThread.h
+	"pthread.h"
+	"../../GlobleData.h"
+
+1389861697 /home/lyh/ChatRoom/ChatRoom4.0/ChatServer/include/SocketItem.h
+	<sys/socket.h>
+	<string>
+	"interface.h"
+	"../../GlobleData.h"
+	"Client.h"
+
+1389938930 /home/lyh/ChatRoom/ChatRoom4.0/ChatServer/include/Client.h
+	<string>
+	"../../GlobleData.h"
+
+1389752351 /home/lyh/ChatRoom/ChatRoom4.0/ChatServer/include/DataEngine.h
+	"interface.h"
+	"DataBaseThread.h"
+
+1389752005 /home/lyh/ChatRoom/ChatRoom4.0/ChatServer/include/DataBaseThread.h
+	<pthread.h>
+	<queue>
+	<list>
+	"ServiceThread.h"
+	"interface.h"
+	"Locker.h"
+
+1389752814 /home/lyh/ChatRoom/ChatRoom4.0/ChatServer/include/Locker.h
+	<pthread.h>
+	<semaphore.h>
+
+1389860969 /home/lyh/ChatRoom/ChatRoom4.0/ChatServer/include/HandleMessage.h
+	"interface.h"
+
+1389232416 /home/lyh/ChatRoom/ChatRoom4.0/ChatServer/include/XMLDataHandle.h
+	"interface.h"
+
+1389752583 /home/lyh/ChatRoom/ChatRoom4.0/ChatServer/include/SocketItemManager.h
+	<vector>
+	<string>
+	"Singleton.h"
+	"interface.h"
+
+1388044110 /home/lyh/ChatRoom/ChatRoom4.0/ChatServer/include/Singleton.h
+
+1389779441 /home/lyh/ChatRoom/ChatRoom4.0/ChatServer/include/Log.h
+	"Singleton.h"
+
+1389752609 /home/lyh/ChatRoom/ChatRoom4.0/ChatServer/include/GlobalParamManager.h
+	<string>
+	"Singleton.h"
+
+1389752965 /home/lyh/ChatRoom/ChatRoom4.0/ChatServer/include/MySqlDataHandle.h
+	<mysql/mysql.h>
+	"interface.h"
+
+1389751801 source:/home/lyh/ChatRoom/ChatRoom4.0/ChatServer/src/Client.cpp
+	<string.h>
+	"Client.h"
+	"SocketItem.h"
+
+1389835594 source:/home/lyh/ChatRoom/ChatRoom4.0/ChatServer/src/DataBaseThread.cpp
+	<string.h>
+	"../../GlobleData.h"
+	"DataBaseThread.h"
+	"Log.h"
+
+1389840241 source:/home/lyh/ChatRoom/ChatRoom4.0/ChatServer/src/DataEngine.cpp
+	<iostream>
+	<stdio.h>
+	<syslog.h>
+	<string.h>
+	"DataEngine.h"
+	"Log.h"
+	"GlobalParamManager.h"
+
+1389752929 source:/home/lyh/ChatRoom/ChatRoom4.0/ChatServer/src/GlobalParamManager.cpp
+	"tinyxml.h"
+	"Log.h"
+	"GlobalParamManager.h"
+
+1387340134 /home/lyh/ChatRoom/ChatRoom4.0/ChatServer/include/tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1387340073 /home/lyh/ChatRoom/ChatRoom4.0/ChatServer/include/tinystr.h
+	<assert.h>
+	<string.h>
+
+1389860978 source:/home/lyh/ChatRoom/ChatRoom4.0/ChatServer/src/HandleMessage.cpp
+	<stdio.h>
+	<string.h>
+	<iostream>
+	<syslog.h>
+	<vector>
+	<fcntl.h>
+	<sys/epoll.h>
+	<sys/socket.h>
+	<unistd.h>
+	<netdb.h>
+	<errno.h>
+	"../../GlobleData.h"
+	"HandleMessage.h"
+	"SocketItemManager.h"
+	"SocketItem.h"
+	"Log.h"
+
+1388653726 source:/home/lyh/ChatRoom/ChatRoom4.0/ChatServer/src/Locker.cpp
+	<exception>
+	"Locker.h"
+
+1389752939 source:/home/lyh/ChatRoom/ChatRoom4.0/ChatServer/src/Log.cpp
+	<iostream>
+	"Log.h"
+	"../../GlobleData.h"
+	<syslog.h>
+
+1389752979 source:/home/lyh/ChatRoom/ChatRoom4.0/ChatServer/src/MySqlDataHandle.cpp
+	<mysql/mysql.h>
+	<stdio.h>
+	"MySqlDataHandle.h"
+	"Log.h"
+
+1389752929 source:/home/lyh/ChatRoom/ChatRoom4.0/ChatServer/src/NetworkEngine.cpp
+	<syslog.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/epoll.h>
+	<errno.h>
+	"NetworkEngine.h"
+	"SocketItem.h"
+	"../../GlobleData.h"
+	"SocketItemManager.h"
+	"Log.h"
+	"SendThread.h"
+	"GlobalParamManager.h"
+
+1389347091 /home/lyh/ChatRoom/ChatRoom4.0/ChatServer/include/SendThread.h
+	<list>
+	"ServiceThread.h"
+	"Locker.h"
+	"../../GlobleData.h"
+
+1389347087 source:/home/lyh/ChatRoom/ChatRoom4.0/ChatServer/src/SendThread.cpp
+	"SendThread.h"
+	"SocketItemManager.h"
+	"SocketItem.h"
+
+1389752929 source:/home/lyh/ChatRoom/ChatRoom4.0/ChatServer/src/ServiceThread.cpp
+	<syslog.h>
+	"ServiceThread.h"
+	"Log.h"
+
+1389753372 source:/home/lyh/ChatRoom/ChatRoom4.0/ChatServer/src/SocketItem.cpp
+	<iostream>
+	<stdio.h>
+	<fcntl.h>
+	<syslog.h>
+	<sys/epoll.h>
+	<sys/socket.h>
+	<unistd.h>
+	<netdb.h>
+	<errno.h>
+	<string.h>
+	"SocketItem.h"
+	"SocketItemManager.h"
+	"Log.h"
+	"Client.h"
+
+1389752929 source:/home/lyh/ChatRoom/ChatRoom4.0/ChatServer/src/SocketItemManager.cpp
+	<stdio.h>
+	<algorithm>
+	<vector>
+	"SocketItem.h"
+	"SocketItemManager.h"
+	"Log.h"
+
+1387340071 source:/home/lyh/ChatRoom/ChatRoom4.0/ChatServer/src/tinystr.cpp
+	"tinystr.h"
+
+1387340087 source:/home/lyh/ChatRoom/ChatRoom4.0/ChatServer/src/tinyxml.cpp
+	<ctype.h>
+	<sstream>
+	<iostream>
+	"tinyxml.h"
+
+1387340156 source:/home/lyh/ChatRoom/ChatRoom4.0/ChatServer/src/tinyxmlerror.cpp
+	"tinyxml.h"
+
+1387340154 source:/home/lyh/ChatRoom/ChatRoom4.0/ChatServer/src/tinyxmlparser.cpp
+	<ctype.h>
+	<stddef.h>
+	"tinyxml.h"
+	<windows.h>
+
+1389752929 source:/home/lyh/ChatRoom/ChatRoom4.0/ChatServer/src/WorkThread.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<syslog.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/epoll.h>
+	"WorkThread.h"
+	"SocketItem.h"
+	"Log.h"
+
+1389752929 source:/home/lyh/ChatRoom/ChatRoom4.0/ChatServer/src/XMLDataHandle.cpp
+	"XMLDataHandle.h"
+	"tinyxml.h"
+	<syslog.h>
+	<iostream>
+	"Log.h"
+
+1389681017 /home/lyh/ChatRoom/ChatRoom4.0/GlobleData.h
+	"pthread.h"
+

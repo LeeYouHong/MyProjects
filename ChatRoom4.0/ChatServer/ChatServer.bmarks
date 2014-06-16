@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<BrowseTracker_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="src/WorkThread.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="1519" topLine="46" />
+	</File>
+	<File name="src/SocketItemManager.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="1513" topLine="56" />
+	</File>
+	<File name="src/Client.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="132" topLine="0" />
+	</File>
+	<File name="include/ChatRoom.h" open="1" top="0" tabpos="3">
+		<Cursor position="632" topLine="3" />
+		<BrowseMarks positions="" />
+		<Book_Marks positions="" />
+	</File>
+	<File name="main.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="202" topLine="0" />
+	</File>
+	<File name="src/ChatRoom.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="2235" topLine="65" />
+	</File>
+	<File name="include/Singleton.h" open="0" top="0" tabpos="15">
+		<Cursor position="445" topLine="0" />
+	</File>
+	<File name="include/DataEngine.h" open="0" top="0" tabpos="0">
+		<Cursor position="578" topLine="17" />
+	</File>
+	<File name="../GlobleData.h" open="0" top="0" tabpos="1">
+		<Cursor position="137" topLine="0" />
+	</File>
+	<File name="include/SocketItemManager.h" open="0" top="0" tabpos="8">
+		<Cursor position="286" topLine="0" />
+	</File>
+	<File name="src/Locker.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="998" topLine="0" />
+	</File>
+	<File name="include/WorkThread.h" open="0" top="0" tabpos="10">
+		<Cursor position="803" topLine="11" />
+	</File>
+	<File name="src/SendThread.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="955" topLine="33" />
+	</File>
+	<File name="include/Locker.h" open="0" top="0" tabpos="0">
+		<Cursor position="508" topLine="0" />
+	</File>
+	<File name="src/DataBaseThread.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="989" topLine="56" />
+	</File>
+	<File name="src/DataEngine.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="3862" topLine="122" />
+	</File>
+	<File name="include/MySqlDataHandle.h" open="0" top="0" tabpos="16">
+		<Cursor position="353" topLine="0" />
+	</File>
+	<File name="include/HandleMessage.h" open="0" top="0" tabpos="10">
+		<Cursor position="1014" topLine="11" />
+	</File>
+	<File name="include/interface.h" open="0" top="0" tabpos="0">
+		<Cursor position="188" topLine="0" />
+	</File>
+	<File name="src/SocketItem.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="8935" topLine="371" />
+		<BrowseMarks positions="" />
+		<Book_Marks positions="" />
+	</File>
+	<File name="include/Log.h" open="0" top="0" tabpos="2">
+		<Cursor position="168" topLine="0" />
+	</File>
+	<File name="include/SocketItem.h" open="1" top="0" tabpos="1">
+		<Cursor position="1752" topLine="46" />
+	</File>
+	<File name="src/ServiceThread.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="754" topLine="73" />
+	</File>
+	<File name="src/MySqlDataHandle.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="845" topLine="111" />
+	</File>
+	<File name="include/GlobalParamManager.h" open="0" top="0" tabpos="3">
+		<Cursor position="251" topLine="0" />
+	</File>
+	<File name="src/Log.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="189" topLine="0" />
+	</File>
+	<File name="src/HandleMessage.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="1532" topLine="81" />
+	</File>
+	<File name="include/DataBaseThread.h" open="0" top="0" tabpos="4">
+		<Cursor position="873" topLine="19" />
+	</File>
+	<File name="src/GlobalParamManager.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="377" topLine="4" />
+	</File>
+	<File name="include/ServiceThread.h" open="0" top="0" tabpos="0">
+		<Cursor position="492" topLine="21" />
+	</File>
+	<File name="include/SendThread.h" open="0" top="0" tabpos="2">
+		<Cursor position="803" topLine="9" />
+	</File>
+	<File name="src/NetworkEngine.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="3636" topLine="182" />
+	</File>
+	<File name="include/Client.h" open="1" top="1" tabpos="19">
+		<Cursor position="109" topLine="0" />
+		<BrowseMarks positions="" />
+		<Book_Marks positions="" />
+	</File>
+	<File name="include/NetworkEngine.h" open="0" top="0" tabpos="13">
+		<Cursor position="887" topLine="27" />
+	</File>
+</BrowseTracker_layout_file>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<BrowseTracker_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="src/SendThread.cpp" open="1" top="0" tabpos="10">
+		<Cursor position="5394" topLine="202" />
+		<BrowseMarks positions="" />
+		<Book_Marks positions="" />
+	</File>
+	<File name="src/ChatRoom.cpp" open="1" top="1" tabpos="6">
+		<Cursor position="4349" topLine="157" />
+		<BrowseMarks positions="" />
+		<Book_Marks positions="" />
+	</File>
+	<File name="src/ReadThread.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="2045" topLine="54" />
+	</File>
+	<File name="src/HanldeMessage.cpp" open="1" top="0" tabpos="7">
+		<Cursor position="826" topLine="46" />
+		<BrowseMarks positions="" />
+		<Book_Marks positions="" />
+	</File>
+	<File name="include/GlobleData.h" open="0" top="0" tabpos="11">
+		<Cursor position="2354" topLine="63" />
+	</File>
+	<File name="include/CMDView.h" open="1" top="0" tabpos="6">
+		<Cursor position="227" topLine="0" />
+		<BrowseMarks positions="" />
+		<Book_Marks positions="" />
+	</File>
+	<File name="src/CMDView.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="1645" topLine="39" />
+		<BrowseMarks positions="" />
+		<Book_Marks positions="" />
+	</File>
+	<File name="include/interface.h" open="0" top="0" tabpos="3">
+		<Cursor position="113" topLine="0" />
+		<BrowseMarks positions="" />
+		<Book_Marks positions="" />
+	</File>
+	<File name="include/ChatRoom.h" open="0" top="0" tabpos="13">
+		<Cursor position="230" topLine="0" />
+	</File>
+	<File name="include/ReadThread.h" open="0" top="0" tabpos="4">
+		<Cursor position="61" topLine="0" />
+		<BrowseMarks positions="" />
+		<Book_Marks positions="" />
+	</File>
+	<File name="../GlobleData.h" open="0" top="0" tabpos="8">
+		<Cursor position="1842" topLine="75" />
+		<BrowseMarks positions="" />
+		<Book_Marks positions="" />
+	</File>
+	<File name="src/ServiceThread.cpp" open="0" top="0" tabpos="14">
+		<Cursor position="1385" topLine="47" />
+	</File>
+	<File name="include/GlobalManager.h" open="0" top="0" tabpos="5">
+		<Cursor position="300" topLine="0" />
+		<BrowseMarks positions="" />
+		<Book_Marks positions="" />
+	</File>
+	<File name="src/GlobalManager.cpp" open="1" top="0" tabpos="5">
+		<Cursor position="170" topLine="0" />
+		<BrowseMarks positions="" />
+		<Book_Marks positions="" />
+	</File>
+	<File name="include/SendThread.h" open="0" top="0" tabpos="2">
+		<Cursor position="496" topLine="2" />
+		<BrowseMarks positions="" />
+		<Book_Marks positions="" />
+	</File>
+	<File name="main.cpp" open="0" top="0" tabpos="12">
+		<Cursor position="324" topLine="0" />
+	</File>
+	<File name="include/ServiceThread.h" open="0" top="0" tabpos="1">
+		<Cursor position="516" topLine="0" />
+		<BrowseMarks positions="" />
+		<Book_Marks positions="" />
+	</File>
+	<File name="include/HanldeMessage.h" open="0" top="0" tabpos="2">
+		<Cursor position="195" topLine="0" />
+	</File>
+</BrowseTracker_layout_file>

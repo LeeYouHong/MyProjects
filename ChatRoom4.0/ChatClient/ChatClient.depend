@@ -1,0 +1,525 @@
+# depslib dependency file v1.0
+1387530067 source:/home/lyh/Documents/CodeBlocks Projects/epoll/epoll_cpp/ChatClient/main.cpp
+	<iostream>
+	"ChatRoom.h"
+	"HanldeMessage.h"
+
+1387440289 source:/home/lyh/Documents/CodeBlocks Projects/epoll/epoll_cpp/ChatClient/ServiceThread.cpp
+	"ServiceThread.h"
+
+1387518514 /home/lyh/Documents/CodeBlocks Projects/epoll/epoll_cpp/ChatClient/ServiceThread.h
+	"pthread.h"
+	"GlobleData.h"
+
+1387509520 /home/lyh/Documents/CodeBlocks Projects/epoll/epoll_cpp/ChatClient/GlobleData.h
+	"pthread.h"
+
+1387762415 source:/home/lyh/Documents/CodeBlocks Projects/epoll/epoll_cpp/ChatClient/src/SendThread.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<sys/types.h>
+	<arpa/inet.h>
+	<errno.h>
+	"string.h"
+	<iostream>
+	"SendThread.h"
+	"GlobalManager.h"
+	"interface.h"
+
+1387762419 /home/lyh/Documents/CodeBlocks Projects/epoll/epoll_cpp/ChatClient/include/SendThread.h
+	<string>
+	<ServiceThread.h>
+	"GlobleData.h"
+	"interface.h"
+
+1387518514 /home/lyh/Documents/CodeBlocks Projects/epoll/epoll_cpp/ChatClient/include/ServiceThread.h
+	"pthread.h"
+	"GlobleData.h"
+
+1387706441 /home/lyh/Documents/CodeBlocks Projects/epoll/epoll_cpp/ChatClient/include/GlobleData.h
+	"pthread.h"
+
+1387440289 source:/home/lyh/Documents/CodeBlocks Projects/epoll/epoll_cpp/ChatClient/src/ServiceThread.cpp
+	"ServiceThread.h"
+
+1387763126 source:/home/lyh/Documents/CodeBlocks Projects/epoll/epoll_cpp/ChatClient/src/ChatRoom.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<sys/types.h>
+	<arpa/inet.h>
+	"ChatRoom.h"
+	"HanldeMessage.h"
+	"CMDView.h"
+
+1387762777 /home/lyh/Documents/CodeBlocks Projects/epoll/epoll_cpp/ChatClient/include/ChatRoom.h
+	"SendThread.h"
+	"interface.h"
+	"netinet/in.h"
+	<sys/socket.h>
+
+1387762880 /home/lyh/Documents/CodeBlocks Projects/epoll/epoll_cpp/ChatClient/include/interface.h
+	<iostream>
+	<string>
+	"GlobleData.h"
+
+1387706504 source:/home/lyh/Documents/CodeBlocks Projects/epoll/epoll_cpp/ChatClient/src/HanldeMessage.cpp
+	<iostream>
+	"HanldeMessage.h"
+
+1387525516 /home/lyh/Documents/CodeBlocks Projects/epoll/epoll_cpp/ChatClient/include/HanldeMessage.h
+	"interface.h"
+
+1387531257 source:/home/lyh/Documents/CodeBlocks Projects/epoll/epoll_cpp/ChatClient/src/GlobalManager.cpp
+	"GlobalManager.h"
+
+1387531251 /home/lyh/Documents/CodeBlocks Projects/epoll/epoll_cpp/ChatClient/include/GlobalManager.h
+	"GlobleData.h"
+
+1387762980 /home/lyh/Documents/CodeBlocks Projects/epoll/epoll_cpp/ChatClient/include/CMDView.h
+	<string>
+	"interface.h"
+
+1387763102 source:/home/lyh/Documents/CodeBlocks Projects/epoll/epoll_cpp/ChatClient/src/CMDView.cpp
+	<iostream>
+	<string>
+	"CMDView.h"
+	"interface.h"
+
+1387855023 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatClient/src/CMDView.cpp
+	<iostream>
+	<string>
+	"CMDView.h"
+	"interface.h"
+
+1387854998 /home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatClient/include/CMDView.h
+	<string>
+	"interface.h"
+
+1387855046 /home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatClient/include/interface.h
+	<iostream>
+	<string>
+	"GlobleData.h"
+
+1387869179 /home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatClient/include/GlobleData.h
+	"pthread.h"
+
+1387531257 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatClient/src/GlobalManager.cpp
+	"GlobalManager.h"
+
+1387531251 /home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatClient/include/GlobalManager.h
+	"GlobleData.h"
+
+1387857710 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatClient/src/HanldeMessage.cpp
+	<iostream>
+	"HanldeMessage.h"
+	"interface.h"
+
+1387855684 /home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatClient/include/HanldeMessage.h
+	"interface.h"
+
+1387762415 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatClient/src/SendThread.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<sys/types.h>
+	<arpa/inet.h>
+	<errno.h>
+	"string.h"
+	<iostream>
+	"SendThread.h"
+	"GlobalManager.h"
+	"interface.h"
+
+1387762419 /home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatClient/include/SendThread.h
+	<string>
+	<ServiceThread.h>
+	"GlobleData.h"
+	"interface.h"
+
+1387518514 /home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatClient/include/ServiceThread.h
+	"pthread.h"
+	"GlobleData.h"
+
+1387440289 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatClient/src/ServiceThread.cpp
+	"ServiceThread.h"
+
+1387787470 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatClient/main.cpp
+	<iostream>
+	"ChatRoom.h"
+	"HanldeMessage.h"
+
+1387853876 /home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatClient/include/ChatRoom.h
+	"SendThread.h"
+	"interface.h"
+	"netinet/in.h"
+	"ReadThread.h"
+	<sys/socket.h>
+
+1387857840 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatClient/src/ChatRoom.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<sys/types.h>
+	<errno.h>
+	<arpa/inet.h>
+	"ChatRoom.h"
+	"HanldeMessage.h"
+	"CMDView.h"
+
+1387785015 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatClient/src/ReadThread.cpp
+	<iostream>
+	<sys/socket.h>
+	<unistd.h>
+	<errno.h>
+	<netinet/in.h>
+	<error.h>
+	<string.h>
+	<stdio.h>
+	"ReadThread.h"
+
+1387786786 /home/lyh/Documents/CodeBlocks Projects/ChatRoom/ChatClient/include/ReadThread.h
+	"GlobleData.h"
+	"interface.h"
+	"ServiceThread.h"
+
+1387787470 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatClient/main.cpp
+	<iostream>
+	"ChatRoom.h"
+	"HanldeMessage.h"
+
+1388390744 /home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatClient/include/ChatRoom.h
+	"SendThread.h"
+	"interface.h"
+	"netinet/in.h"
+	"ReadThread.h"
+	<sys/socket.h>
+
+1387879222 /home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatClient/include/SendThread.h
+	<string>
+	<ServiceThread.h>
+	"GlobleData.h"
+	"interface.h"
+
+1387518514 /home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatClient/include/ServiceThread.h
+	"pthread.h"
+	"GlobleData.h"
+
+1388373938 /home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatClient/include/GlobleData.h
+	"pthread.h"
+
+1388390733 /home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatClient/include/interface.h
+	<iostream>
+	<string>
+	"GlobleData.h"
+
+1387786786 /home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatClient/include/ReadThread.h
+	"GlobleData.h"
+	"interface.h"
+	"ServiceThread.h"
+
+1387855684 /home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatClient/include/HanldeMessage.h
+	"interface.h"
+
+1388393181 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatClient/src/ChatRoom.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<sys/types.h>
+	<errno.h>
+	<arpa/inet.h>
+	"ChatRoom.h"
+	"HanldeMessage.h"
+	"CMDView.h"
+
+1387879258 /home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatClient/include/CMDView.h
+	<string>
+	"interface.h"
+
+1388390688 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatClient/src/CMDView.cpp
+	<iostream>
+	<string>
+	"CMDView.h"
+	"interface.h"
+
+1387874959 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatClient/src/GlobalManager.cpp
+	"GlobalManager.h"
+
+1387874954 /home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatClient/include/GlobalManager.h
+	"GlobleData.h"
+
+1388393139 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatClient/src/HanldeMessage.cpp
+	<iostream>
+	"HanldeMessage.h"
+	"interface.h"
+	"GlobalManager.h"
+
+1387785015 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatClient/src/ReadThread.cpp
+	<iostream>
+	<sys/socket.h>
+	<unistd.h>
+	<errno.h>
+	<netinet/in.h>
+	<error.h>
+	<string.h>
+	<stdio.h>
+	"ReadThread.h"
+
+1387879178 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatClient/src/SendThread.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<sys/types.h>
+	<arpa/inet.h>
+	<errno.h>
+	"string.h"
+	<iostream>
+	"SendThread.h"
+	"GlobalManager.h"
+	"interface.h"
+
+1387440289 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom2.0/ChatClient/src/ServiceThread.cpp
+	"ServiceThread.h"
+
+1387787470 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatClient/main.cpp
+	<iostream>
+	"ChatRoom.h"
+	"HanldeMessage.h"
+
+1389081094 /home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatClient/include/ChatRoom.h
+	"SendThread.h"
+	"interface.h"
+	"netinet/in.h"
+	"ReadThread.h"
+	<sys/socket.h>
+
+1389081163 /home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatClient/include/SendThread.h
+	<string>
+	<ServiceThread.h>
+	"GlobleData.h"
+	"interface.h"
+
+1387518514 /home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatClient/include/ServiceThread.h
+	"pthread.h"
+	"GlobleData.h"
+
+1389083306 /home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatClient/include/GlobleData.h
+	"pthread.h"
+
+1389081942 /home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatClient/include/interface.h
+	<iostream>
+	<string>
+	"GlobleData.h"
+
+1387786786 /home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatClient/include/ReadThread.h
+	"GlobleData.h"
+	"interface.h"
+	"ServiceThread.h"
+
+1387855684 /home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatClient/include/HanldeMessage.h
+	"interface.h"
+
+1389081226 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatClient/src/CMDView.cpp
+	<iostream>
+	<string>
+	"CMDView.h"
+	"interface.h"
+
+1387879258 /home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatClient/include/CMDView.h
+	<string>
+	"interface.h"
+
+1387874959 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatClient/src/GlobalManager.cpp
+	"GlobalManager.h"
+
+1387874954 /home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatClient/include/GlobalManager.h
+	"GlobleData.h"
+
+1389083970 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatClient/src/HanldeMessage.cpp
+	<iostream>
+	"HanldeMessage.h"
+	"interface.h"
+	"string.h"
+	"GlobalManager.h"
+
+1387785015 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatClient/src/ReadThread.cpp
+	<iostream>
+	<sys/socket.h>
+	<unistd.h>
+	<errno.h>
+	<netinet/in.h>
+	<error.h>
+	<string.h>
+	<stdio.h>
+	"ReadThread.h"
+
+1389083333 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatClient/src/SendThread.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<sys/types.h>
+	<arpa/inet.h>
+	<errno.h>
+	"string.h"
+	<iostream>
+	"SendThread.h"
+	"GlobalManager.h"
+	"interface.h"
+
+1387440289 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatClient/src/ServiceThread.cpp
+	"ServiceThread.h"
+
+1389081100 source:/home/lyh/Documents/CodeBlocks Projects/ChatRoom3.0/ChatClient/src/ChatRoom.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<sys/types.h>
+	<errno.h>
+	<arpa/inet.h>
+	"ChatRoom.h"
+	"HanldeMessage.h"
+	"CMDView.h"
+
+1387787470 source:/home/lyh/ChatRoom/ChatRoom4.0/ChatClient/main.cpp
+	<iostream>
+	"ChatRoom.h"
+	"HanldeMessage.h"
+
+1389081094 /home/lyh/ChatRoom/ChatRoom4.0/ChatClient/include/ChatRoom.h
+	"SendThread.h"
+	"interface.h"
+	"netinet/in.h"
+	"ReadThread.h"
+	<sys/socket.h>
+
+1389326358 /home/lyh/ChatRoom/ChatRoom4.0/ChatClient/include/SendThread.h
+	<string>
+	<ServiceThread.h>
+	"../../GlobleData.h"
+	"interface.h"
+
+1389326351 /home/lyh/ChatRoom/ChatRoom4.0/ChatClient/include/ServiceThread.h
+	"pthread.h"
+	"../../GlobleData.h"
+
+1389083306 /home/lyh/ChatRoom/ChatRoom4.0/ChatClient/include/GlobleData.h
+	"pthread.h"
+
+1389326365 /home/lyh/ChatRoom/ChatRoom4.0/ChatClient/include/interface.h
+	<iostream>
+	<string>
+	"../../GlobleData.h"
+
+1389326372 /home/lyh/ChatRoom/ChatRoom4.0/ChatClient/include/ReadThread.h
+	"../../GlobleData.h"
+	"interface.h"
+	"ServiceThread.h"
+
+1387855684 /home/lyh/ChatRoom/ChatRoom4.0/ChatClient/include/HanldeMessage.h
+	"interface.h"
+
+1389688952 source:/home/lyh/ChatRoom/ChatRoom4.0/ChatClient/src/ChatRoom.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<sys/types.h>
+	<errno.h>
+	<arpa/inet.h>
+	"ChatRoom.h"
+	"HanldeMessage.h"
+	"CMDView.h"
+
+1389688939 /home/lyh/ChatRoom/ChatRoom4.0/ChatClient/include/CMDView.h
+	<string>
+	"interface.h"
+
+1389688947 source:/home/lyh/ChatRoom/ChatRoom4.0/ChatClient/src/CMDView.cpp
+	<iostream>
+	<string>
+	"CMDView.h"
+	"interface.h"
+
+1387874959 source:/home/lyh/ChatRoom/ChatRoom4.0/ChatClient/src/GlobalManager.cpp
+	"GlobalManager.h"
+
+1389326434 /home/lyh/ChatRoom/ChatRoom4.0/ChatClient/include/GlobalManager.h
+	"../../GlobleData.h"
+
+1389681529 source:/home/lyh/ChatRoom/ChatRoom4.0/ChatClient/src/HanldeMessage.cpp
+	<iostream>
+	"HanldeMessage.h"
+	"interface.h"
+	"string.h"
+	"GlobalManager.h"
+
+1389334357 source:/home/lyh/ChatRoom/ChatRoom4.0/ChatClient/src/ReadThread.cpp
+	<iostream>
+	<sys/socket.h>
+	<unistd.h>
+	<errno.h>
+	<netinet/in.h>
+	<error.h>
+	<string.h>
+	<stdio.h>
+	"ReadThread.h"
+
+1389334437 source:/home/lyh/ChatRoom/ChatRoom4.0/ChatClient/src/SendThread.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<sys/types.h>
+	<arpa/inet.h>
+	<errno.h>
+	"string.h"
+	<iostream>
+	"SendThread.h"
+	"GlobalManager.h"
+	"interface.h"
+
+1387440289 source:/home/lyh/ChatRoom/ChatRoom4.0/ChatClient/src/ServiceThread.cpp
+	"ServiceThread.h"
+
+1389681017 /home/lyh/ChatRoom/ChatRoom4.0/GlobleData.h
+	"pthread.h"
+

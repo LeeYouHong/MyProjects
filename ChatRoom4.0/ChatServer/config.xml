@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GlobalParam XmlFilePath="/123.xml" ServerPort="12345" MaxPeople="100" SendRequestQueue="100" DBRequestQueue="100" />

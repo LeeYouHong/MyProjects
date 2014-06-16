@@ -1,0 +1,209 @@
+# depslib dependency file v1.0
+1387245083 source:/home/lyh/Documents/CodeBlocks Projects/epoll/epoll_cpp/epoll/main.cpp
+	<iostream>
+	"Epoll.h"
+
+1387245090 /home/lyh/Documents/CodeBlocks Projects/epoll/epoll_cpp/epoll/include/Epoll.h
+
+1387245316 source:/home/lyh/Documents/CodeBlocks Projects/epoll/epoll_cpp/epoll/src/Epoll.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/epoll.h>
+	<errno.h>
+	"Epoll.h"
+
+1387438920 source:/home/lyh/Documents/CodeBlocks Projects/epoll/epoll_Cpp/epoll-Multi Thread/main.cpp
+	<iostream>
+	<unistd.h>
+	"ChatRoom.h"
+
+1387438356 /home/lyh/Documents/CodeBlocks Projects/epoll/epoll_Cpp/epoll-Multi Thread/include/Epoll.h
+	<vector>
+	"GlobleData.h"
+	"interface.h"
+	"WorkThread.h"
+
+1387706353 /home/lyh/Documents/CodeBlocks Projects/epoll/epoll_Cpp/epoll-Multi Thread/include/GlobleData.h
+	"pthread.h"
+
+1387438668 source:/home/lyh/Documents/CodeBlocks Projects/epoll/epoll_Cpp/epoll-Multi Thread/src/Epoll.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/epoll.h>
+	<errno.h>
+	"Epoll.h"
+	"SocketItem.h"
+	"GlobleData.h"
+	"SocketItemManager.h"
+
+1387509998 /home/lyh/Documents/CodeBlocks Projects/epoll/epoll_Cpp/epoll-Multi Thread/include/SocketItem.h
+	<string>
+	<sys/socket.h>
+	"interface.h"
+	"GlobleData.h"
+
+1387445888 /home/lyh/Documents/CodeBlocks Projects/epoll/epoll_Cpp/epoll-Multi Thread/include/interface.h
+	"GlobleData.h"
+
+1387528389 source:/home/lyh/Documents/CodeBlocks Projects/epoll/epoll_Cpp/epoll-Multi Thread/src/SocketItem.cpp
+	<iostream>
+	<stdio.h>
+	<fcntl.h>
+	<sys/epoll.h>
+	<sys/socket.h>
+	<unistd.h>
+	<netdb.h>
+	<errno.h>
+	<string.h>
+	"SocketItem.h"
+	"SocketItemManager.h"
+
+1387522765 /home/lyh/Documents/CodeBlocks Projects/epoll/epoll_Cpp/epoll-Multi Thread/include/SocketItemManager.h
+	<vector>
+	<map>
+	"interface.h"
+
+1387528441 source:/home/lyh/Documents/CodeBlocks Projects/epoll/epoll_Cpp/epoll-Multi Thread/src/SocketItemManager.cpp
+	<stdio.h>
+	<string.h>
+	"SocketItemManager.h"
+	"SocketItem.h"
+
+1387706455 source:/home/lyh/Documents/CodeBlocks Projects/epoll/epoll_Cpp/epoll-Multi Thread/src/HandleMessage.cpp
+	<stdio.h>
+	<string.h>
+	<iostream>
+	<vector>
+	<fcntl.h>
+	<sys/epoll.h>
+	<sys/socket.h>
+	<unistd.h>
+	<netdb.h>
+	<errno.h>
+	"GlobleData.h"
+	"HandleMessage.h"
+	"SocketItemManager.h"
+	"SocketItem.h"
+
+1387522354 /home/lyh/Documents/CodeBlocks Projects/epoll/epoll_Cpp/epoll-Multi Thread/include/HandleMessage.h
+	"interface.h"
+
+1387446507 /home/lyh/Documents/CodeBlocks Projects/epoll/epoll_Cpp/epoll-Multi Thread/include/DataEngine.h
+	"interface.h"
+	"DataBaseThread.h"
+
+1387706379 source:/home/lyh/Documents/CodeBlocks Projects/epoll/epoll_Cpp/epoll-Multi Thread/src/DataEngine.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+	"DataEngine.h"
+
+1387688882 source:/home/lyh/Documents/CodeBlocks Projects/epoll/epoll_Cpp/epoll-Multi Thread/src/XMLDataHandle.cpp
+	"XMLDataHandle.h"
+	"tinyxml.h"
+	<iostream>
+
+1387509521 /home/lyh/Documents/CodeBlocks Projects/epoll/epoll_Cpp/epoll-Multi Thread/include/XMLDataHandle.h
+	"interface.h"
+
+1387340071 source:/home/lyh/Documents/CodeBlocks Projects/epoll/epoll_Cpp/epoll-Multi Thread/src/tinystr.cpp
+	"tinystr.h"
+
+1387340073 /home/lyh/Documents/CodeBlocks Projects/epoll/epoll_Cpp/epoll-Multi Thread/include/tinystr.h
+	<assert.h>
+	<string.h>
+
+1387340087 source:/home/lyh/Documents/CodeBlocks Projects/epoll/epoll_Cpp/epoll-Multi Thread/src/tinyxml.cpp
+	<ctype.h>
+	<sstream>
+	<iostream>
+	"tinyxml.h"
+
+1387340134 /home/lyh/Documents/CodeBlocks Projects/epoll/epoll_Cpp/epoll-Multi Thread/include/tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1387340156 source:/home/lyh/Documents/CodeBlocks Projects/epoll/epoll_Cpp/epoll-Multi Thread/src/tinyxmlerror.cpp
+	"tinyxml.h"
+
+1387340154 source:/home/lyh/Documents/CodeBlocks Projects/epoll/epoll_Cpp/epoll-Multi Thread/src/tinyxmlparser.cpp
+	<ctype.h>
+	<stddef.h>
+	"tinyxml.h"
+	<windows.h>
+
+1387440289 source:/home/lyh/Documents/CodeBlocks Projects/epoll/epoll_Cpp/epoll-Multi Thread/src/ServiceThread.cpp
+	"ServiceThread.h"
+
+1387438024 /home/lyh/Documents/CodeBlocks Projects/epoll/epoll_Cpp/epoll-Multi Thread/include/ServiceThread.h
+	"pthread.h"
+	"GlobleData.h"
+
+1387428591 source:/home/lyh/Documents/CodeBlocks Projects/epoll/epoll_Cpp/epoll-Multi Thread/src/CChatRoom.cpp
+	"Epoll.h"
+	"DataEngine.h"
+	"HandleMessage.h"
+	"XMLDataHandle.h"
+	"SocketItemManager.h"
+	"CChatRoom.h"
+
+1387428340 /home/lyh/Documents/CodeBlocks Projects/epoll/epoll_Cpp/epoll-Multi Thread/include/CChatRoom.h
+
+1387428340 /home/lyh/Documents/CodeBlocks Projects/epoll/epoll_Cpp/epoll-Multi Thread/include/ChatRoom.h
+
+1387446593 source:/home/lyh/Documents/CodeBlocks Projects/epoll/epoll_Cpp/epoll-Multi Thread/src/ChatRoom.cpp
+	"Epoll.h"
+	"DataEngine.h"
+	"HandleMessage.h"
+	"XMLDataHandle.h"
+	"SocketItemManager.h"
+	"ChatRoom.h"
+
+1387453265 source:/home/lyh/Documents/CodeBlocks Projects/epoll/epoll_Cpp/epoll-Multi Thread/src/DataBaseThread.cpp
+	<string.h>
+	"GlobleData.h"
+	"DataBaseThread.h"
+
+1387437832 /home/lyh/Documents/CodeBlocks Projects/epoll/epoll_Cpp/epoll-Multi Thread/include/DataBaseThread.h
+	<queue>
+	"pthread.h"
+	"ServiceThread.h"
+	"interface.h"
+
+1387438553 /home/lyh/Documents/CodeBlocks Projects/epoll/epoll_Cpp/epoll-Multi Thread/include/WorkThread.h
+	"ServiceThread.h"
+	"SocketItem.h"
+
+1387439003 source:/home/lyh/Documents/CodeBlocks Projects/epoll/epoll_Cpp/epoll-Multi Thread/src/WorkThread.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/epoll.h>
+	"WorkThread.h"
+	"SocketItem.h"
+
