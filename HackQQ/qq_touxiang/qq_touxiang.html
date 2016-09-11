@@ -1,0 +1,38 @@
+<!--
+描述：经过分析qq号的头像地址都是:http://qlogo3.store.qq.com/qzone/[qq]/[qq]/100,比如qq号10004的头像地址为http://qlogo3.store.qq.com/qzone/10004/10004/100,不过经分析有的qq号头像显示为空，但有的又有，原因待研究。
+时间：2014-09-05
+-->
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>查看所有qq头像</title>
+  </head>
+  <body>
+    <div id="input" >
+	 <table style="margin:auto;">
+	 <tr>
+	   <td>起始QQ号</td>
+	   <td> <input id="start_qq" type="text"></td>
+	 </tr>
+	 <tr>
+	   <td>终点QQ号</td>
+	   <td> <input id="end_qq" type="text"></td>
+	 </tr>
+	 <tr>
+		 <td colspan=2 align="center"><input type="button" id="ok" value="开始" onClick="download()" ></td>
+	 </tr>
+      </table>
+    </div>
+    <script>
+	    function download(){
+		first = parseInt(document.getElementById('start_qq').value);
+		end = parseInt(document.getElementById('end_qq').value);
+      		for (var i = first; i < end; i++)
+      		{
+	  		url = "http://qlogo3.store.qq.com/qzone/"+i+"/"+i+"/100";
+	  		document.write('<img src="' + url + '" ' + 'title="' + i + '" />');
+	        }
+	    }
+    </script>
+  </body>
+</html>
