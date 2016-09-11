@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>查找xls中的内容</title>
+<style>
+body{
+    background-color:ghostwhite;
+}
+#drop{
+	border:2px dashed #bbb;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	padding:80px;
+	text-align:center;
+	font:20pt bold,"Vollkorn";
+    color:red;
+}
+#footer{
+    text-align:center;
+    position:absolute;
+    left:50%;
+    width:400px;
+    margin-left:-200px;
+    bottom:20px;
+}
+.label{
+    color:darkcyan;
+}
+.input_text{
+    color:teal;
+    border-color:floralwhite;
+    background-color:ghostwhite;
+}
+#ok{
+    width:100px;
+    color:darkcyan;
+    font-size:large;
+}
+#ok[disabled=disabled]{
+    opacity:0.5;
+}
+#footer{
+    opacity:0.7;
+}
+
+</style>
+</head>
+
+<body>
+    <div id="drop">
+        请先拖放一个xls文件到这里.
+    </div>
+    <div id="input">
+        <table style="margin:auto;">
+            <tr>
+                <td class="label">姓名的列号(如：A）</td>
+                <td> <input id="aCol" type="text" class="input_text"></td>
+            </tr>
+            <tr>
+                <td class="label">成绩的列号(如：O）</td>
+                <td> <input id="bCol" type="text" class="input_text"></td>
+            </tr>
+            <tr>
+                <td class="label">查找的姓名</td>
+                <td> <input id="value" type="text" class="input_text"></td>
+            </tr>
+            <tr>
+                <td class="label">成绩</td>
+                <td> <input readonly="true" Value="此处显示结果" id="result" type="text" class="input_text"></td>
+            </tr>
+            <tr>
+                <td colspan=2 align="center"><input type="button" id="ok" value="开始" onClick="ok_click()" disabled="disabled" width="100px"></td>
+            </tr>
+            <tr>
+                <td colspan=2 align="center"><span style="color:red;" id="tip"></span></td>
+            </tr>
+        </table>
+    </div>
+    <div id="footer">
+        Copyright &copy; 2014 
+        <a href="http://github.com/LeeYouHong">LeeYouHong</a>
+            .Powered by 
+        <a href="http://oss.sheetjs.com/js-xls">JS-XLS</a>
+    </div>
+</body>
+
+<script type="text/javascript" async="" src="./js/ga.js"></script>
+<script src="./js/xls.js"></script>
+<script>
+var file_data;
+var file_name;
+var drop = document.getElementById('drop');
+
+function handleDrop(e) {
+	e.stopPropagation();
+	e.preventDefault();
+	var files = e.dataTransfer.files;
+    var reader = new FileReader();
+    var file = files[0];
+    file_name = file.name;
+    reader.onload = function(e) {
+        file_data = e.target.result;
+        //拖入文件后相应改变
+        afterDragedFile();
+    };
+    reader.readAsBinaryString(file);
+}
+
+function afterDragedFile() {
+    //改变开始按钮状态
+    okButton = document.getElementById('ok');
+    if ( okButton.getAttribute('disabled') )
+    {
+        okButton.removeAttribute('disabled');
+    }
+
+    //改变拖入框内容
+    drop.style.color = "darkcyan";
+    drop.innerText = "[" + file_name + "]已拖入";
+}
+
+function handleDragover(e) {
+	e.stopPropagation();
+	e.preventDefault();
+	e.dataTransfer.dropEffect = 'copy';
+}
+
+if(drop.addEventListener) {
+	drop.addEventListener('dragenter', handleDragover, false);
+	drop.addEventListener('dragover', handleDragover, false);
+	drop.addEventListener('drop', handleDrop, false);
+}
+
+var getDataType = function(o) {
+    if (o instanceof Array) {
+        return 'Array';
+    } else if (o instanceof Object) {
+        return 'Object';
+    } else {
+        return 'param is no object type';
+    }
+}
+
+function get_cell_value(wb) {
+    //方法一
+    //var ws = wb.Sheets[wb.Directory[0]];
+    //return ws['A1'].v;
+
+    //方法二
+    var sheet_name_list = wb.SheetNames;
+    var result = wb.Sheets[sheet_name_list[0]]['A1'].v;
+    return result;
+}
+
+function print_sheet(wb) {
+    var ws = wb.Sheets[wb.Directory[0]];
+    var rows= XLS.utils.sheet_to_row_object_array(ws);
+    var description = "";
+    rows.forEach(function(row) {
+        for(var i in row) {
+            var property= row[i];
+            description += i + " = " + property + "\n"; 
+        }
+        description +="--------------------\n";
+        // description += a + "\n"; 
+    });
+    alert(description);
+}
+
+function ok_click() {
+    var aCol = document.getElementById('aCol').value;
+    var bCol = document.getElementById('bCol').value;
+    var value = document.getElementById('value').value;
+    var tip = document.getElementById('tip');
+
+    document.getElementById('result').value = "此处显示结果";
+    tip.innerText = "";
+    
+    aCol_reg = /[A-Z]+/; 
+    bCol_reg = /[A-Z]+/;
+    value_reg = /^.+$/;
+
+    var a = aCol_reg.test(aCol);
+    var b = bCol_reg.test(bCol);
+    var v = value_reg.test(value);
+    if( !a || !b || !v ) {
+        tip.innerText = "请正确输入相关数据" 
+        return -1; 
+    }
+    find_result(aCol, bCol, value);
+}
+
+function find_result(aCol, bCol, value){
+    //读取xls文件
+    var wb = XLS.read(file_data, {type: 'binary'});
+    var ws = wb.Sheets[wb.Directory[0]];
+    
+    var colnum = 1;
+    var cell_a, cell_b;
+    var result_input = document.getElementById('result'); 
+    var haveResult = false;
+
+    cell_a = ws[aCol+colnum];
+    if (cell_a == undefined || cell_a == null)
+    {
+        result_input.value = "无此结果";
+    }
+
+    while (cell_a != null && cell_a != undefined)
+    {
+        if(cell_a.v == value) {
+            cell_b = ws[bCol+colnum]; 
+            if (cell_b == undefined || cell_b == null)
+            {
+                result_input.value = "无此结果";
+            } else {
+                result_input.value = cell_b.v;
+            }
+            haveResult = true;
+        }
+        colnum++;
+        cell_a = ws[aCol+colnum];
+    }
+    if (!haveResult)
+    {
+        result_input.value = "无此结果";
+    }
+}
+</script>
+
+<!--<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-36810333-1']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+--!>
+</body>
+</html>
